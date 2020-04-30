@@ -1,0 +1,111 @@
+#nav {
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 80px;
+}
+
+#links {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 2.3vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+    margin: auto;
+    text-align:center;
+    display: inline-block; 
+}
+
+a{
+text-decoration: none;
+color: #4C4334;
+}
+
+a:visited {
+text-decoration: none;
+   color: #4C4334;
+}
+
+
+#logo { 
+    max-height: 35px; 
+    width: auto;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+} 
+
+@media screen and (max-width: 900px) {
+  #logo {
+    max-height: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+h2 {
+    font-family:'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family:'Shadows Into Light', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+body {
+    background-color: #4C4334;
+    margin: 0;
+    background-image: url(resources/DSC_0086copy.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px, auto;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    font-family:'Roboto Slab', serif;
+    color: blanchedalmond;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.contact a:visited {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+
+
+#footer {
+    font-family: 'Roboto Slab', serif;
+    background-color: blanchedalmond;
+    text-align: center;
+    color: #4C4334;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.icons {max-height: 60px; padding-right: 15px;}
+
+
+

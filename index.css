@@ -1,0 +1,152 @@
+
+#nav {
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 80px;
+}
+
+#links {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 2.3vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+    margin: auto;
+    text-align:center;
+    display: inline-block; 
+}
+
+a {
+    text-decoration: none;
+    color: #4C4334;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4C4334;
+}
+
+
+#logo {
+    max-height: 35px; 
+    width: auto;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+} 
+
+@media screen and (max-width: 900px) {
+  #logo {
+    max-height: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+body {
+    background-color: #4C4334;
+    background-position: center 20px, left top;
+    background-repeat: no-repeat;
+    background-size: 1300px, auto;
+    margin: 0;
+}
+
+.parallax {
+  background-image: url(resources/DSC_0081.jpg);
+  height: 1200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+    font-family:'Shadows Into Light', cursive;
+    color: #4C4334;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 7vw;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#header {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    color: #FAD8B1;
+    font-size: 3vw;
+}
+
+.contact {
+    position: relative;
+    width: 15%;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    border: 1px #FFF;
+    border-radius: 2em;
+    color: #4C4334;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: saddlebrown;
+    border: 1px #ffebcd;
+    border-radius: 2em;
+}
+
+.contact:hover .overlay {
+  opacity: 0.4;
+}
+
+
+
+#about {
+    background-color: blanchedalmond;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+#about p {
+    font-family: 'Roboto Slab', serif;
+    color: #4C4334;
+    font-size: 1.7vw;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+#footer {
+    font-family: 'Roboto Slab', serif;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 1vw;
+    color: #4C4334;
+    padding: 10px;
+}
